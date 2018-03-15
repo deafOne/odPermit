@@ -51,6 +51,8 @@ body {
 #main span{
 	font-family: 'Bangers', cursive;
 	text-shadow: 0 0 21px white;
+	position: fixed;
+	z-index: 2;
 }
 
 
@@ -63,7 +65,7 @@ footer {
 	text-align: left;
 	text-transform: uppercase;
     transition: margin-left .5s;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
